@@ -9,5 +9,7 @@ Implemented data validation, error handling, and analytical features such as abn
 🛠️ Technologies & Tools:
 
 Bash (Shell Scripting)
+
 Linux/Unix environment
+
 File-based storage (text files)
