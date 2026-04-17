@@ -1,15 +1,62 @@
-🏥 Medical Test Management System:
+# 🏥 Medical Test Management System
 
-This project is a command-line system for managing patient medical test records using shell scripting, allowing efficient storage, retrieval, and analysis of test data.
+A shell-based system for managing patient medical test records, enabling efficient storage, retrieval, and analysis through a command-line interface.
 
-Developed a system to add, update, delete, and search patient test records based on ID, test type, date, and status.
+## ✨ Features
 
-Implemented data validation, error handling, and analytical features such as abnormal test detection and average value calculation.
+- Add, update, delete, and search medical test records  
+- Search by **patient ID, test type, date, and status**  
+- Detect **abnormal test results** based on predefined ranges  
+- Calculate **average values** for different medical tests  
+- Includes **input validation** and error handling for reliable usage  
 
-🛠️ Technologies & Tools:
+## 🗂️ Project Structure
 
-Bash (Shell Scripting)
+```
+medical-test-management/
+├── MedicalTest.sh        # Main program
+├── medicalRecord.txt     # Patient records database
+├── medicaltest.txt       # Test definitions and normal ranges
+├── Average.sh            # Average calculations
+├── update.sh             # Update records
+├── delete.sh             # Delete records
+├── save.sh               # Validation and saving
+└── docs/
+    └── report.pdf        # Project documentation
+```
 
-Linux/Unix environment
+## 🚀 Getting Started
 
-File-based storage (text files)
+### Prerequisites
+
+```bash
+sudo apt install bc
+```
+
+> Requires Linux/Unix environment with Bash
+
+### Run
+
+```bash
+chmod +x MedicalTest.sh
+./MedicalTest.sh
+```
+
+## ⚙️ How It Works
+
+The system stores medical test records in text files and performs operations using shell scripts.
+
+- Ensures **data validation** for correct input formats  
+- Supports full **CRUD operations**  
+- Provides basic **data analysis** (abnormal detection & averages)  
+
+## 🛠️ Tech Stack
+
+- **Bash (Shell Scripting)**  
+- **Linux/Unix**  
+- **Text file storage**  
+
+## 👥 Done by:
+
+- Marah Hamarsheh  
+- Lana Daramna  
